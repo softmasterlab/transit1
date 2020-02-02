@@ -25,7 +25,8 @@ SECRET_KEY = 'jahq8i*v5kr=7paaeeyb^_zy%9#dg7y0tf*yr=+oalmkv8v3ml'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'127.0.0.1', u'itstep.pythonanywhere.com']
+# ALLOWED_HOSTS = [u'127.0.0.1']
+ALLOWED_HOSTS = [u'itstep.pythonanywhere.com']
 
 
 # Application definition
@@ -124,9 +125,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]
+# STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'static'),
+# ]
 
 MEDIA_ROOT = u'/home/itstep/newsite1/media'
 MEDIA_URL = '/media/'
